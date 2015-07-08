@@ -1,18 +1,14 @@
 
-PFont font;
-
 float x = 120.1;
 float dx = 0.5;
 float y = 130.1;
-float dy = 0.5;
+float dy = 0.5; 
 int a = 125;
 int da = 1;
 void setup()
   {
   size(250, 250);
-  font = loadFont("Consolas-48.vlw");
-textFont(font,32);
-  }
+   }
   
 void draw()
 {
@@ -57,6 +53,4 @@ void draw()
   }
   a = a + da;
   
-  text("bilibili",10,50);
-
 }
